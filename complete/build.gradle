@@ -27,6 +27,8 @@ targetCompatibility = 1.8
 dependencies {
     compile("org.springframework.boot:spring-boot-starter")
     compile("org.springframework.boot:spring-boot-starter-data-redis")
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.8.8'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.8.8'
     testCompile("junit:junit")
 }
 
